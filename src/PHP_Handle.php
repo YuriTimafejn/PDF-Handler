@@ -27,7 +27,6 @@ class PHP_Handle
 
         $mergePDF->setFormat('PDF');
         $mergePDF->setImageCompressionQuality(100);
-        $mergePDF->setImageCompression(70);
 
         $tmpFile = tempnam(sys_get_temp_dir(), 'merge_');
         $mergePDF->writeImages($tmpFile, true);
