@@ -11,10 +11,13 @@
     "authors": [
         {
             "name": "Yuri Timafejn",
-            "email": "yuri.timafejn@ecgroup.com"
+            "email": "yuri@timafejn.com"
         }
     ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
     "require": {
-      "ext-imagick": "*"
+        "ext-imagick": "*"
     }
 }
