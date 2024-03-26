@@ -14,5 +14,7 @@
             "email": "yuri.timafejn@ecgroup.com"
         }
     ],
-    "require": {}
+    "require": {
+      "ext-imagick": "*"
+    }
 }
